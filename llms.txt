@@ -1,9 +1,7 @@
 # github-achievements
 > Every GitHub achievement explained + a safe sandbox to earn them
-Maintained by aixisstudio (https://github.com/aixisstudio). Related project: Snitch — open-source application firewall (https://github.com/aixisstudio/Snitch).
-Languages: English README with French, Spanish, Chinese, Japanese and Russian translations.
+Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://github.com/aixisstudio/github-achievements
 
-## Content
 ## 🏅 Every Badge, Every Tier
 
 | Badge | How to earn it | Tiers |
@@ -32,4 +30,8 @@ Open a PR on your repo → merge it **without requesting review**. Done.
 Every merged PR counts — including on your own repos. Script the create/merge loop and pace it under the anti-abuse limit (~10-15 merges/min sustained, or GitHub temporarily blocks content creation).
 
 ### 👥 Pair Extraordinaire *(the sneaky one)*
-The `Co-authored-by:` trailer must be in **the PR's commits**, 
+The `Co-authored-by:` trailer must be in **the PR's commits**, not the merge commit:
+```
+Co-authored-by: friend <12345+theiruser@users.noreply.github.com>
+```
+Each
