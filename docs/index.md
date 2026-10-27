@@ -60,22 +60,25 @@ This repo has an **auto-merge bot** (`pull_request_target` workflow). To safely 
 - **Can I lose a badge?** Tier-based badges (Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain) recalculate — dropping below a threshold demotes you. Deleted repos stop counting.
 - **Is this against the rules?** GitHub's ToS prohibits spam and abuse. The badges are cosmetic; the community norms are what they are. Practice responsibly — a profile with diamond Pull Shark and 3 followers raises eyebrows, not admiration.
 
+## 🔬 Verified mechanics (community-tested)
 
-## ❓ Frequently Asked Questions
+| Badge | What counts | What doesn't |
+|---|---|---|
+| Pull Shark | PR merged on any repo you don't own... or do own | reverts, drafts |
+| Pair Extraordinaire | `Co-authored-by:` in merge commit | regular commits |
+| Galaxy Brain | Accepted answer in Q&A discussion | upvotes alone |
+| Heart On Your Sleeve | Any ❤️ reaction on your content | reactions on others' |
+| YOLO | Merge with zero reviews requested | "review skipped" still counts as review |
 
-**How do I get the Pull Shark badge on GitHub?**
+## ⚠️ Rate-limit reality
 
-Merge pull requests — the badge tiers are 2, 16, 128 and 1024 merged PRs, including PRs on your own repositories.
+GitHub recalculates achievements on a delayed cron — merges to badge can take 24-48h. The `/settings/appearance` showcase may lag a week. Don't panic if a completed action doesn't show instantly.
 
-**How do I get Pair Extraordinaire?**
+## 🧪 Ethical farming
 
-Merge PRs whose commits contain a `Co-authored-by:` trailer — 1, 10, 24 and 48 PRs for the tiers.
-
-**Why didn't my Galaxy Brain badge appear?**
-
-Accepted answers only count when someone else accepts your answer — self-accepted answers on your own discussions do not count.
-
+- A private sandbox repo gets you Pull Shark/YOLO/Pair legitimately — it's your own repo, your own PRs.
+- Galaxy Brain genuinely requires another human's question OR a second account asking you.
+- Heart On Your Sleeve needs real people reacting — hence this repo's sandbox issue.
 
 ---
-
-Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall. See also: [all resources](https://aixisstudio.github.io).
+Maintained by [aixisstudio](https://github.com/aixisstudio).
