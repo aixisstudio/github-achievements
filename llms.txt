@@ -1,0 +1,35 @@
+# github-achievements
+> Every GitHub achievement explained + a safe sandbox to earn them
+Maintained by aixisstudio (https://github.com/aixisstudio). Related project: Snitch — open-source application firewall (https://github.com/aixisstudio/Snitch).
+Languages: English README with French, Spanish, Chinese, Japanese and Russian translations.
+
+## Content
+## 🏅 Every Badge, Every Tier
+
+| Badge | How to earn it | Tiers |
+|---|---|---|
+| **Quickdraw** | Close an issue within 5 minutes of opening it | — |
+| **YOLO** | Merge a PR without code review | — |
+| **Pull Shark** | Merge pull requests | 2 / 16 / 128 / **1024** |
+| **Pair Extraordinaire** | Co-authored commits on merged PRs | 1 / 10 / 24 / **48** |
+| **Galaxy Brain** | Accepted answers in Discussions | 2 / 8 / 16 / **32** |
+| **Starstruck** | Stars on your repos | 16 / 128 / **512** / 4096 |
+| **Open Sourcerer** | PRs merged on public repos *(currently closed)* | — |
+| **Heart On Your Sleeve** | Emoji reactions on your content *(currently closed)* | — |
+| **Public Sponsor** | Sponsor open-source work via GitHub Sponsors | — |
+| **Developer Program Member** | Register at github.com/developer/register | — |
+| **Mars 2020 / Arctic Code Vault** | Historical events — unobtainable | — |
+
+## ⚡ The Fastest Path to Each Badge
+
+### 🚀 Quickdraw *(2 minutes)*
+Open an issue in any of your repos → close it immediately. Badge triggers at the next scan.
+
+### 🎲 YOLO *(2 minutes)*
+Open a PR on your repo → merge it **without requesting review**. Done.
+
+### 🦈 Pull Shark *(the grind badge)*
+Every merged PR counts — including on your own repos. Script the create/merge loop and pace it under the anti-abuse limit (~10-15 merges/min sustained, or GitHub temporarily blocks content creation).
+
+### 👥 Pair Extraordinaire *(the sneaky one)*
+The `Co-authored-by:` trailer must be in **the PR's commits**, 
