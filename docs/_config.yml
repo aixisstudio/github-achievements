@@ -1,0 +1,6 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+title: Github Achievements
+description: Every GitHub achievement explained + a safe sandbox to earn them
+show_downloads: false
