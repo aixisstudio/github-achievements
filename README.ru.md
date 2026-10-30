@@ -4,85 +4,83 @@
 
 Все значки GitHub + безопасная песочница для их получения
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
+Каждый знак, каждый уровень
 
-## 🏅 Every Badge, Every Tier
-
-| Badge | How to earn it | Tiers |
+Как заработать / How to earn it
 |---|---|---|
-| **Quickdraw** | Close an issue within 5 minutes of opening it | — |
-| **YOLO** | Merge a PR without code review | — |
-| **Pull Shark** | Merge pull requests | 2 / 16 / 128 / **1024** |
-| **Pair Extraordinaire** | Co-authored commits on merged PRs | 1 / 10 / 24 / **48** |
-| **Galaxy Brain** | Accepted answers in Discussions | 2 / 8 / 16 / **32** |
-| **Starstruck** | Stars on your repos | 16 / 128 / **512** / 4096 |
-| **Open Sourcerer** | PRs merged on public repos *(currently closed)* | — |
-| **Heart On Your Sleeve** | Emoji reactions on your content *(currently closed)* | — |
-| **Public Sponsor** | Sponsor open-source work via GitHub Sponsors | — |
-| **Developer Program Member** | Register at github.com/developer/register | — |
-| **Mars 2020 / Arctic Code Vault** | Historical events — unobtainable | — |
+**Быстрая отрисовка ** Закрыть вопрос в течение 5 минут после его открытия
+| **YOLO** | Объединить PR без проверки кода | — |
+| **Pull Shark** | Merge pull requests | 2 / 16 / 128 / **1024**
+| **Парный экстраординарный** | Соавтор берет на себя обязательства по объединенным PR | 1 / 10 / 24 / **48** |
+|**Галактический мозг** | Принятые ответы в Дискуссиях | 2/8/16/**32**
+| **Starstruck** | Звезды на ваших репозиториях | 16 / 128 / **512** / 4096 |
+| **Open Sourcerer** | PR слились в публичные репозитории *(в настоящее время закрыты)* | — |
+**Heart On Your Sleeve** | Реакции эмодзи на ваш контент *(в настоящее время закрыт)*
+**Государственный спонсор**Государственный спонсор с открытым исходным кодом через спонсоров GitHub
+** Участник программы разработчика** | Регистрация на сайте github.com/developer/register | — |
+**Mars 2020 / Arctic Code Vault** | Исторические события — недостижимы
 
-## ⚡ The Fastest Path to Each Badge
+Самый быстрый путь к каждому значку
 
-### 🚀 Quickdraw *(2 minutes)*
-Open an issue in any of your repos → close it immediately. Badge triggers at the next scan.
+### ) Quickdraw *(2 минуты)*
+Откройте проблему в любом из ваших репозиториев - немедленно закройте ее. Значок срабатывает при следующем сканировании.
 
-### 🎲 YOLO *(2 minutes)*
-Open a PR on your repo → merge it **without requesting review**. Done.
+### ) YOLO *(2 минуты)*
+Откройте PR на своем РЕПО → объедините его ** без запроса отзыва **. Готово.
 
-### 🦈 Pull Shark *(the grind badge)*
-Every merged PR counts — including on your own repos. Script the create/merge loop and pace it under the anti-abuse limit (~10-15 merges/min sustained, or GitHub temporarily blocks content creation).
+### ) Pull Shark *(знак измельчения)*
+Каждый объединенный PR имеет значение, в том числе на ваших собственных репо. Напишите цикл создания/слияния и разогните его до предела анти-злоупотребления (~10-15 слияний/мин, или GitHub временно блокирует создание контента).
 
-### 👥 Pair Extraordinaire *(the sneaky one)*
-The `Co-authored-by:` trailer must be in **the PR's commits**, not the merge commit:
+### air Pair Extraordinaire * (подлый) *
+Трейлер `Co-authored-by:` должен быть в ** обязательствах PR**, а не в обязательстве слияния:
 ```
 Co-authored-by: friend <12345+theiruser@users.noreply.github.com>
 ```
-Each merged PR with a co-authored commit counts once toward the 48.
+Каждый объединенный PR с соавтором фиксирует один раз к 48.
 
-### 🧠 Galaxy Brain *(the one that bites back)*
-Discussions must have a **Q&A category** and someone must *accept* your answer. Marking your own answer on your own discussion **does not count** — the accept must come from the discussion author or another maintainer. Two-account or community approaches work.
+### the Галактический мозг * (тот, который кусается назад) *
+Дискуссии должны иметь категорию **Q&A**, и кто-то должен принять ваш ответ. Отметка вашего собственного ответа на вашем собственном обсуждении ** не считается ** - согласие должно исходить от автора обсуждения или другого исполнителя. Подходы с двумя счетами или сообществом.
 
-### ⭐ Starstruck *(can't be faked)*
-Stars come from real users — ship something people want, promote it in the right places. This repo's sibling project [Snitch](https://github.com/aixisstudio/Snitch) is a living example.
+### ★ Starstruck *(не может быть подделкой)*
+Звезды приходят от реальных пользователей — отправляют то, что люди хотят, продвигают в нужных местах. Проект репо (https://github.com/aixisstudio/Snitch) является живым примером.
 
-## 🧪 The Sandbox
+## Песочница
 
-This repo has an **auto-merge bot** (`pull_request_target` workflow). To safely earn YOLO/Pull Shark activity *here*:
+В этом репо есть бот **auto-merge** (процесс `pull_request_target`). Чтобы безопасно заработать YOLO/Pull Shark *здесь*:
 
-1. Fork this repo
-2. Edit `sandbox.md` in your fork (add a line — anything)
-3. Open a PR **that only touches `sandbox.md`**
-4. The bot merges it automatically — check your merged-PR count
+1.Вилка этого репо
+2. Редактируйте `sandbox.md` в вилке (добавьте строку - что угодно)
+3. Откройте PR **, который касается только `sandbox.md`**
+4.Бот автоматически сливает его — проверьте количество объединенных PR
 
-> Only `sandbox.md` changes are auto-merged, for obvious security reasons.
+Только изменения `sandbox.md` автоматически сливаются по очевидным причинам безопасности.
 
-## ❓ FAQ
+##   FAQ
 
-- **When do badges appear?** GitHub recalculates achievements in batches — anywhere from a few hours to ~3 days after the triggering activity.
-- **Do tiers upgrade?** Yes — the badge levels up automatically as you cross thresholds.
-- **Can I lose a badge?** Tier-based badges (Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain) recalculate — dropping below a threshold demotes you. Deleted repos stop counting.
-- **Is this against the rules?** GitHub's ToS prohibits spam and abuse. The badges are cosmetic; the community norms are what they are. Practice responsibly — a profile with diamond Pull Shark and 3 followers raises eyebrows, not admiration.
+- Когда появляются значки? GitHub пересчитывает достижения партиями — от нескольких часов до ~ 3 дней после запуска.
+-**Улучшаются ли уровни?** Да, уровень значка автоматически повышается при пересечении порогов.
+- Я могу потерять значок? Знаки уровня (Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain) пересчитываются — падение ниже порога понижает вас. Удаленные репо перестают считать.
+- Это противоречит правилам? GitHub запрещает спам и злоупотребления. Значки косметические; нормы сообщества такие, какие они есть. Практикуйте ответственно — профиль с бриллиантом Pull Shark и 3 подписчиками вызывает брови, а не восхищение.
 
-## 🔬 Verified mechanics (community-tested)
+## ) Проверенная механика (проверенная сообществом)
 
-| Badge | What counts | What doesn't |
+Обсуждение What Counts Чего не происходит
 |---|---|---|
-| Pull Shark | PR merged on any repo you don't own... or do own | reverts, drafts |
-| Pair Extraordinaire | `Co-authored-by:` in merge commit | regular commits |
-| Galaxy Brain | Accepted answer in Q&A discussion | upvotes alone |
-| Heart On Your Sleeve | Any ❤️ reaction on your content | reactions on others' |
-| YOLO | Merge with zero reviews requested | "review skipped" still counts as review |
+Pull Shark | PR сливается с любым репо, которым вы не владеете... или делаете собственные | возвраты, черновики |
+Pair Extraordinaire | `Co-authored-by:` in merge commit | регулярные обязательства
+| Галактика Мозг | Принятый ответ в обсуждении вопросов и ответов | одни только голоса |
+Сердца на рукаве / Heart On Your Sleeve / Любые реакции на ваш контент / Реакции на других
+| YOLO | Слияние с нулевыми отзывами запрашиваемых | «пропущенный обзор» по-прежнему считается обзором
 
-## ⚠️ Rate-limit reality
+## -️ Реальность с ограничением скорости
 
-GitHub recalculates achievements on a delayed cron — merges to badge can take 24-48h. The `/settings/appearance` showcase may lag a week. Don't panic if a completed action doesn't show instantly.
+GitHub пересчитывает достижения на отложенном кроне — слияние с бейджем может занять 24-48 ч. Витрина `/settings/appearance` может отстать на неделю Не паникуйте, если завершенное действие не проявляется мгновенно.
 
-## 🧪 Ethical farming
+###Этическое сельское хозяйство
 
-- A private sandbox repo gets you Pull Shark/YOLO/Pair legitimately — it's your own repo, your own PRs.
-- Galaxy Brain genuinely requires another human's question OR a second account asking you.
-- Heart On Your Sleeve needs real people reacting — hence this repo's sandbox issue.
+Частный репо песочницы дает вам право на Pull Shark / YOLO / Pair - это ваше собственное репо, ваши собственные PR.
+Галактический Мозг действительно требует другого человеческого вопроса или второй вопрос.
+Heart On Your Sleeve нуждается в реакции реальных людей — отсюда и проблема с песочницей.
 
 ---
 ## Участие
