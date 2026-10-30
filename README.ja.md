@@ -4,85 +4,83 @@
 
 全 GitHub 実績バッジの解説 + 安全なサンドボックス
 
-_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
+## 任意のバッジ、すべての層
 
-## 🏅 Every Badge, Every Tier
-
-| Badge | How to earn it | Tiers |
+| バッジ | 獲得方法 | ティア |
 |---|---|---|
-| **Quickdraw** | Close an issue within 5 minutes of opening it | — |
-| **YOLO** | Merge a PR without code review | — |
-| **Pull Shark** | Merge pull requests | 2 / 16 / 128 / **1024** |
-| **Pair Extraordinaire** | Co-authored commits on merged PRs | 1 / 10 / 24 / **48** |
-| **Galaxy Brain** | Accepted answers in Discussions | 2 / 8 / 16 / **32** |
-| **Starstruck** | Stars on your repos | 16 / 128 / **512** / 4096 |
-| **Open Sourcerer** | PRs merged on public repos *(currently closed)* | — |
-| **Heart On Your Sleeve** | Emoji reactions on your content *(currently closed)* | — |
-| **Public Sponsor** | Sponsor open-source work via GitHub Sponsors | — |
-| **Developer Program Member** | Register at github.com/developer/register | — |
-| **Mars 2020 / Arctic Code Vault** | Historical events — unobtainable | — |
+|**クイックドロー** | 開店5分以内 | | | |
+|**YOLO** | コードレビューなしでPRをマージ | | | |
+|**Pull Shark** | マージプルリクエスト | 2 / 16 / 128 / **1024** |
+|**Pair Extraordinaire** | 統合PRに関する共著コミット | 1/10/24** |
+|**Galaxy Brain** | ディスカッションの回答受付 | 2/8/16** |
+|**Starstruck** | 星の再生 | 16 / 128 / ** 512** / 4096 |
+|**オープンソース** | パブリックリポーズ(現クローズド)* | — |
+|**Heart On Your Sleeve** | 内容の絵文字の反応 *(現在クローズ)* | | | |
+|**パブリックスポンサー** | GitHubスポンサーによるオープンソースのスポンサー | — |
+| ※開発プログラム会員** | github.com/developer/registerにて登録 | |
+|**2020年3月/アークティック・コード・ボルト** | 歴史あるイベント | — |
 
-## ⚡ The Fastest Path to Each Badge
+## ⚡ 各バッジへの最速のパス
 
-### 🚀 Quickdraw *(2 minutes)*
-Open an issue in any of your repos → close it immediately. Badge triggers at the next scan.
+### OST クイックドロー *(2分)*
+再投稿の問題をすぐに開く → すぐに閉じる. 次のスキャンでバッジがトリガーされます。
 
-### 🎲 YOLO *(2 minutes)*
-Open a PR on your repo → merge it **without requesting review**. Done.
+#### YO YOLO *(2分)*
+リポ → に PR を開きます。** をリクエストせずにマージします。 お問い合わせ
 
-### 🦈 Pull Shark *(the grind badge)*
-Every merged PR counts — including on your own repos. Script the create/merge loop and pace it under the anti-abuse limit (~10-15 merges/min sustained, or GitHub temporarily blocks content creation).
+## 🦈  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * *  *  *  *  * *  *  *  *  *  * * * * * * * * * * * * * * * * *
+それぞれにマージされた PR カウントをカウントします。 スクリプトは、作成/マージ ループを作成し、反使用制限(~10-15 のマージ/分持続、または GitHub はコンテンツ作成を一時的にブロックします)の下でそれをペースにします。
 
-### 👥 Pair Extraordinaire *(the sneaky one)*
-The `Co-authored-by:` trailer must be in **the PR's commits**, not the merge commit:
+## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+`Co-authored-by:` のトレーラーは、マージコミットではなく、**PR のコミットである必要があります。
 ```
 Co-authored-by: friend <12345+theiruser@users.noreply.github.com>
 ```
-Each merged PR with a co-authored commit counts once toward the 48.
+それぞれが合併したPRは、共著者のコミットが48に1回カウントされます。
 
-### 🧠 Galaxy Brain *(the one that bites back)*
-Discussions must have a **Q&A category** and someone must *accept* your answer. Marking your own answer on your own discussion **does not count** — the accept must come from the discussion author or another maintainer. Two-account or community approaches work.
+## 🧠 ギャラクシー ブレイン *(ビットバック)*
+ディスカッションには、**Q&Aカテゴリ**と誰かが*あなたの答えを受け入れる必要があります。 あなた自身の議論にあなた自身の答えをマークする**カウントしない** - 受け入れは、ディスカッションの著者または別のメンテナから来なければなりません。 2つのアカウントまたはコミュニティが仕事に近づいています。
 
-### ⭐ Starstruck *(can't be faked)*
-Stars come from real users — ship something people want, promote it in the right places. This repo's sibling project [Snitch](https://github.com/aixisstudio/Snitch) is a living example.
+## ◀ Starstruck *(偽造できません)*
+星は、実際のユーザーから来ています。人々が望むものを出荷し、正しい場所に宣伝してください。 このリポジトリの兄弟プロジェクト[Snitch](https://github.com/aixisstudio/Snitch)は、生きている例です。
 
-## 🧪 The Sandbox
+## 🧪 サンドボックス
 
-This repo has an **auto-merge bot** (`pull_request_target` workflow). To safely earn YOLO/Pull Shark activity *here*:
+このリポジトリには、**自動マージボット**(`pull_request_target`ワークフロー)があります。 YOLO/Pull Shark のアクティビティを安全に取得するため*here*:
 
-1. Fork this repo
-2. Edit `sandbox.md` in your fork (add a line — anything)
-3. Open a PR **that only touches `sandbox.md`**
-4. The bot merges it automatically — check your merged-PR count
+1. フォークこのレポ
+2。 あなたのフォークで`sandbox.md`を編集する(ラインを追加 - 何でも)
+3。 PR**を開くと、`sandbox.md`だけに触れます**
+4。 ボットは自動的にマージされます。マージされたPRカウントを確認してください。
 
-> Only `sandbox.md` changes are auto-merged, for obvious security reasons.
+> `sandbox.md`変更のみが自動統合され、明らかなセキュリティ上の理由から。
 
-## ❓ FAQ
+## よくある質問
 
-- **When do badges appear?** GitHub recalculates achievements in batches — anywhere from a few hours to ~3 days after the triggering activity.
-- **Do tiers upgrade?** Yes — the badge levels up automatically as you cross thresholds.
-- **Can I lose a badge?** Tier-based badges (Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain) recalculate — dropping below a threshold demotes you. Deleted repos stop counting.
-- **Is this against the rules?** GitHub's ToS prohibits spam and abuse. The badges are cosmetic; the community norms are what they are. Practice responsibly — a profile with diamond Pull Shark and 3 followers raises eyebrows, not admiration.
+- **バッジが出たら?** GitHub は、トリガー活動後、数時間から3日間まで、バッチで成果を再計算します。
+- **タイヤのアップグレードはありますか?** はい — 境界線を横断するとバッジレベルが自動的に上昇します。
+- **バッジを失うことはできますか?** 層ベースのバッジ(スターストラック、プルシャーク、ペアエクストラオルディネア、ギャラクシーブレイン)が再計算します。 - しきい値のデモの下にドロップします。 削除されたリポジトリはカウントを停止します。
+-**ルールに対してこれですか?** GitHubのToSはスパムや不正行為を禁止します。 バッジは化粧品です。コミュニティ規範は、彼らが何であるかです。 ダイヤモンドプルシャークと3人のフォロワーを持つプロフィールが、見栄えのない眉毛を上げます。
 
-## 🔬 Verified mechanics (community-tested)
+## 🔬 検証されたメカニックス (community-tested)
 
-| Badge | What counts | What doesn't |
+| バッジ | カウント数 | お知らせ |
 |---|---|---|
-| Pull Shark | PR merged on any repo you don't own... or do own | reverts, drafts |
-| Pair Extraordinaire | `Co-authored-by:` in merge commit | regular commits |
-| Galaxy Brain | Accepted answer in Q&A discussion | upvotes alone |
-| Heart On Your Sleeve | Any ❤️ reaction on your content | reactions on others' |
-| YOLO | Merge with zero reviews requested | "review skipped" still counts as review |
+| プルシャーク | 所有していないレポにマージ | 転倒・ドラフト |
+| Pair Extraordinaire | `Co-authored-by:` をマージ | 通常のコミット |
+| ギャラクシー・ブレイン | Q&A ディスカッション | 単独での投票 |
+| ハート・オン・ザ・スリーブ | ❤️ 反応は内容 | 他者に対する反応 |
+| YOLO | リクエストゼロでマージ | 「レビュースキップ」はまだレビューとしてカウント |
 
-## ⚠️ Rate-limit reality
+## ⚠️ レート制限現実
 
-GitHub recalculates achievements on a delayed cron — merges to badge can take 24-48h. The `/settings/appearance` showcase may lag a week. Don't panic if a completed action doesn't show instantly.
+GitHub は、遅延した cron で成果を再計算し、バッジにマージすることで、24-48h を取ることができます。 `/settings/appearance`ショーケースは週に遅れるかもしれません。 完了したアクションが即座に表示されない場合は慌てないでください。
 
-## 🧪 Ethical farming
+## 🧪 倫理的農業
 
-- A private sandbox repo gets you Pull Shark/YOLO/Pair legitimately — it's your own repo, your own PRs.
-- Galaxy Brain genuinely requires another human's question OR a second account asking you.
-- Heart On Your Sleeve needs real people reacting — hence this repo's sandbox issue.
+- プライベートサンドボックスレポは、あなたがシャーク/YOLO/ペアを合法的に引きます - それはあなた自身のレポ、あなた自身のPRです。
+- ギャラクシー・ブレインは、他の人の質問や2番目のアカウントを尋ねる本物的に要求します。
+- あなたの袖の心は実質の人々 の反応を必要とします — したがって、このリポジトリのサンドボックスの問題。
 
 ---
 ## 貢献
