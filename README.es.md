@@ -4,85 +4,83 @@
 
 Todos los logros de GitHub explicados + sandbox seguro para ganarlos
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
+## ⋅ Every Badge, Every Tier
 
-## 🏅 Every Badge, Every Tier
-
-| Badge | How to earn it | Tiers |
+TENIDO Badge TENIDO Cómo ganarlo TENIDO Tiers
 |---|---|---|
-| **Quickdraw** | Close an issue within 5 minutes of opening it | — |
-| **YOLO** | Merge a PR without code review | — |
-| **Pull Shark** | Merge pull requests | 2 / 16 / 128 / **1024** |
-| **Pair Extraordinaire** | Co-authored commits on merged PRs | 1 / 10 / 24 / **48** |
-| **Galaxy Brain** | Accepted answers in Discussions | 2 / 8 / 16 / **32** |
-| **Starstruck** | Stars on your repos | 16 / 128 / **512** / 4096 |
-| **Open Sourcerer** | PRs merged on public repos *(currently closed)* | — |
-| **Heart On Your Sleeve** | Emoji reactions on your content *(currently closed)* | — |
-| **Public Sponsor** | Sponsor open-source work via GitHub Sponsors | — |
-| **Developer Program Member** | Register at github.com/developer/register | — |
-| **Mars 2020 / Arctic Code Vault** | Historical events — unobtainable | — |
+Silencio **Quickdraw** Silencio Cierra un problema en 5 minutos de la apertura de su vida — Silencio
+Silencio **YOLO** Silencio Merge a PR sin revisión de códigos
+Silencio **Pull Shark** Silencio Merge pull requests latitud 2 / 16 / 128 / **1024** Silencio
+Silencio **Pair Extraordinaire** Silencio Co-authored commits on merged PRs
+Silencio **Galaxy Brain** Silencio Respuestas aceptadas en Discusiones
+Silencio **Starstruck** Silencio Estrellas en su reposo Silencio 16 / 128 / **512** / 4096 Silencio
+*(actualmente cerrado)* Silencio — Silencio
+Silencio **Heart On Your Sleeve** Silencio Emoji reactions on your content *(currently closed)* Silencio — Silencio
+Silencio **Patrocinador Público** Silencio Patrocinar trabajo de código abierto a través de los patrocinadores de GitHub
+Silencio **Developer Program Member** ← Inscribirse en github.com/developer/register TEN — TEN
+Silencio **Marte 2020 / Código Ártico Vault** Silencio Sucesos históricos — inalcanzable vida — Silencio
 
-## ⚡ The Fastest Path to Each Badge
+El camino más rápido a cada insignia
 
 ### 🚀 Quickdraw *(2 minutes)*
-Open an issue in any of your repos → close it immediately. Badge triggers at the next scan.
+Abrir un problema en cualquiera de sus repos → cerrarlo inmediatamente. La insignia activa en el próximo escaneo.
 
 ### 🎲 YOLO *(2 minutes)*
-Open a PR on your repo → merge it **without requesting review**. Done.
+Abrir un PR en su repo → combinarlo **sin solicitar revisión**. Hecho.
 
-### 🦈 Pull Shark *(the grind badge)*
-Every merged PR counts — including on your own repos. Script the create/merge loop and pace it under the anti-abuse limit (~10-15 merges/min sustained, or GitHub temporarily blocks content creation).
+### 🦈 Pull Shark *(la insignia de rectificado)*
+Cada PR fusionado cuenta, incluso en sus propios repos. Escribir el bucle de creación / fusión y marcarlo bajo el límite antiabuso (~10-15 fusiones/min sostenidas, o GitHub bloquea temporalmente la creación de contenido).
 
-### 👥 Pair Extraordinaire *(the sneaky one)*
-The `Co-authored-by:` trailer must be in **the PR's commits**, not the merge commit:
+### ##  tuya Par Extraordinaire *(el astuto)*
+El tráiler `Co-authored-by:` debe estar en ** los compromisos de PR**, no el compromiso de fusión:
 ```
 Co-authored-by: friend <12345+theiruser@users.noreply.github.com>
 ```
-Each merged PR with a co-authored commit counts once toward the 48.
+Cada PR fusionado con un compromiso coautor cuenta una vez hacia los 48.
 
-### 🧠 Galaxy Brain *(the one that bites back)*
-Discussions must have a **Q&A category** and someone must *accept* your answer. Marking your own answer on your own discussion **does not count** — the accept must come from the discussion author or another maintainer. Two-account or community approaches work.
+### 🧠 Galaxy Brain *(el que morde de nuevo)*
+Las discusiones deben tener una categoría **Q.A** y alguien debe *aceptar* su respuesta. Marcando su propia respuesta en su propia discusión ** no cuenta** — la aceptación debe venir del autor de la discusión u otro encargado. Dos cuentas o enfoques comunitarios trabajan.
 
-### ⭐ Starstruck *(can't be faked)*
-Stars come from real users — ship something people want, promote it in the right places. This repo's sibling project [Snitch](https://github.com/aixisstudio/Snitch) is a living example.
+### ⭐ Starstruck *(no se puede fingir)*
+Las estrellas provienen de usuarios reales — enviar algo que la gente quiere, promoverlo en los lugares adecuados. El proyecto de hermanos de este repo [Snitch] (https://github.com/aixisstudio/Snitch) es un ejemplo viviente.
 
 ## 🧪 The Sandbox
 
-This repo has an **auto-merge bot** (`pull_request_target` workflow). To safely earn YOLO/Pull Shark activity *here*:
+Este repo tiene una bot **auto-merge** (`pull_request_target` flujo de trabajo). Para ganar con seguridad YOLO/Pull Shark actividad *aquí*:
 
 1. Fork this repo
-2. Edit `sandbox.md` in your fork (add a line — anything)
-3. Open a PR **that only touches `sandbox.md`**
-4. The bot merges it automatically — check your merged-PR count
+2. Editar `sandbox.md` en su tenedor (add una línea - cualquier cosa)
+3. Abrir un PR ** que sólo toca `sandbox.md`**
+4. El bot lo fusiona automáticamente — compruebe su conteo de RPR fusionado
 
-> Only `sandbox.md` changes are auto-merged, for obvious security reasons.
+Sólo los cambios de `sandbox.md` son automáticos, por razones de seguridad obvias.
 
 ## ❓ FAQ
 
-- **When do badges appear?** GitHub recalculates achievements in batches — anywhere from a few hours to ~3 days after the triggering activity.
-- **Do tiers upgrade?** Yes — the badge levels up automatically as you cross thresholds.
-- **Can I lose a badge?** Tier-based badges (Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain) recalculate — dropping below a threshold demotes you. Deleted repos stop counting.
-- **Is this against the rules?** GitHub's ToS prohibits spam and abuse. The badges are cosmetic; the community norms are what they are. Practice responsibly — a profile with diamond Pull Shark and 3 followers raises eyebrows, not admiration.
+¿Cuándo aparecen las insignias? GitHub recalcula los logros en lotes - en cualquier lugar de unas pocas horas a ~3 días después de la actividad desencadenante.
+- ¿Se actualizan los niveles? Sí — los niveles de insignia aumentan automáticamente a medida que cruza los umbrales.
+¿Puedo perder una placa? Las insignias basadas en el timón (Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain) se recalculan: bajando por debajo de un umbral te demota. Los repos eliminados dejan de contar.
+- ¿Esto es contra las reglas? El ToS de GitHub prohíbe el spam y el abuso. Las insignias son cosméticas; las normas comunitarias son lo que son. Practicar responsablemente — un perfil con Pull Shark de diamante y 3 seguidores levanta cejas, no admiración.
 
-## 🔬 Verified mechanics (community-tested)
+## 🔬 Mecánica verificada (comunidad testada)
 
-| Badge | What counts | What doesn't |
+← Badge Silencio Lo que cuenta ¿Qué es lo que no soporta?
 |---|---|---|
-| Pull Shark | PR merged on any repo you don't own... or do own | reverts, drafts |
-| Pair Extraordinaire | `Co-authored-by:` in merge commit | regular commits |
-| Galaxy Brain | Accepted answer in Q&A discussion | upvotes alone |
-| Heart On Your Sleeve | Any ❤️ reaction on your content | reactions on others' |
-| YOLO | Merge with zero reviews requested | "review skipped" still counts as review |
+Silencio Tiburón Tiburón Silencioso PR fusionado en cualquier reposo que no posee... o sí posee revertencias en la vida, borradores Silencio
+Silencioso Par Extraordinaire Silencio `Co-authored-by:` en fusión comprometer Silencio constante
+← Galaxy Brain TENIDO Respuesta aceptada en la discusión Q
+Reacción de tu contenido en tu vida Reacción de tu contenido en tu vida
+Silencio YOLO Silencio Se fusiona con cero opiniones solicitadas Silencio "revisión saltada" todavía cuenta como revisión Silencio
 
-## ⚠️ Rate-limit reality
+## ⋅ Rate-limit reality
 
-GitHub recalculates achievements on a delayed cron — merges to badge can take 24-48h. The `/settings/appearance` showcase may lag a week. Don't panic if a completed action doesn't show instantly.
+GitHub recalcula los logros en un cron retrasado - fusiones a la placa pueden tomar 24-48h. La exposición `/settings/appearance` puede durar una semana. No entres en pánico si una acción completa no aparece al instante.
 
-## 🧪 Ethical farming
+## 🧪 Agricultura ética
 
-- A private sandbox repo gets you Pull Shark/YOLO/Pair legitimately — it's your own repo, your own PRs.
-- Galaxy Brain genuinely requires another human's question OR a second account asking you.
-- Heart On Your Sleeve needs real people reacting — hence this repo's sandbox issue.
+- Un repo de sandbox privado te consigue Tiro Tiburón/YOLO/Pair legítimamente - es tu propio descanso, tus propios PRs.
+- Galaxy Brain realmente requiere la pregunta de otro humano o una segunda cuenta que le haga.
+- Heart On Your Sleeve necesita gente real que reaccione, por lo que el problema de esta caja de arena.
 
 ---
 ## Contribuir
