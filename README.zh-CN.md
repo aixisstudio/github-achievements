@@ -4,85 +4,83 @@
 
 所有 GitHub 成就徽章详解 + 安全沙盒
 
-_详细内容（列表、链接、描述）以英文维护 — 以下章节为你指引。_
+□□□□□□□□□每徽,每关
 
-## 🏅 Every Badge, Every Tier
-
-| Badge | How to earn it | Tiers |
+如何赢得它 蒂尔斯
 |---|---|---|
-| **Quickdraw** | Close an issue within 5 minutes of opening it | — |
-| **YOLO** | Merge a PR without code review | — |
-| **Pull Shark** | Merge pull requests | 2 / 16 / 128 / **1024** |
-| **Pair Extraordinaire** | Co-authored commits on merged PRs | 1 / 10 / 24 / **48** |
-| **Galaxy Brain** | Accepted answers in Discussions | 2 / 8 / 16 / **32** |
-| **Starstruck** | Stars on your repos | 16 / 128 / **512** / 4096 |
-| **Open Sourcerer** | PRs merged on public repos *(currently closed)* | — |
-| **Heart On Your Sleeve** | Emoji reactions on your content *(currently closed)* | — |
-| **Public Sponsor** | Sponsor open-source work via GitHub Sponsors | — |
-| **Developer Program Member** | Register at github.com/developer/register | — |
-| **Mars 2020 / Arctic Code Vault** | Historical events — unobtainable | — |
+5分钟内结束一个问题。
+将公关合并,不进行代码审查。
+################################################################################################################################################################################################################################################################
+** 共同撰写的合并公关协议                                                                                      
+** 银河大脑** 同意在讨论中的回答                                                                                                                                                                                                                                       
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}=======================================================================================================================================================================================================================================
+****************************************************************************************************************************************************************************************************************************************************************
+* 爱莫吉对你内容的反应* (目前关闭) * * * — * * *
+** 公共赞助者** 通过 GitHub 赞助者发起公开源码的工作。
+** 发展方案成员** 登记在github.com/developer/register                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+* ** 2020年火星/北极代码
 
-## ⚡ The Fastest Path to Each Badge
+# # # 每个徽章最快捷的路径
 
-### 🚀 Quickdraw *(2 minutes)*
-Open an issue in any of your repos → close it immediately. Badge triggers at the next scan.
+* Quickdraw * (2分钟)*
+立即关闭它。 下次扫描时会触发徽章
 
-### 🎲 YOLO *(2 minutes)*
-Open a PR on your repo → merge it **without requesting review**. Done.
+**(2分钟)*
+打开您收回的公关 ~ 合并它 ** 不要求审查 **。 结束了。
 
-### 🦈 Pull Shark *(the grind badge)*
-Every merged PR counts — including on your own repos. Script the create/merge loop and pace it under the anti-abuse limit (~10-15 merges/min sustained, or GitHub temporarily blocks content creation).
+*拉鲨鱼 * (磨面徽章) *
+每个合并的公关计数——包括你自己的回购. 在反滥用限制(~10-15合并/min持续,或GitHub临时阻断内容创建)下,对创建/合并循环进行脚本并速度.
 
-### 👥 Pair Extraordinaire *(the sneaky one)*
-The `Co-authored-by:` trailer must be in **the PR's commits**, not the merge commit:
+*(那个狡猾的)*
+`Co-authored-by:`拖车必须装在**公关承诺**,而不是合并承诺:
 ```
 Co-authored-by: friend <12345+theiruser@users.noreply.github.com>
 ```
-Each merged PR with a co-authored commit counts once toward the 48.
+每一份公关和一份共同署名的承诺合并一次对48人的计数。
 
-### 🧠 Galaxy Brain *(the one that bites back)*
-Discussions must have a **Q&A category** and someone must *accept* your answer. Marking your own answer on your own discussion **does not count** — the accept must come from the discussion author or another maintainer. Two-account or community approaches work.
+银河脑*(咬回来的那个)*
+讨论必须有“A”类**,必须有人接受你的回答。 在自己的讨论中标注你自己的答案**不计数**——接受必须来自讨论作者或其他维护者. 双账户或社区办法行之有效。
 
-### ⭐ Starstruck *(can't be faked)*
-Stars come from real users — ship something people want, promote it in the right places. This repo's sibling project [Snitch](https://github.com/aixisstudio/Snitch) is a living example.
+(不能伪造)
+明星来自真正的用户——运送人们想要的东西,在合适的地方推广. 这个repo的姊妹计划[Snitch](https://github.com/aixisstudio/Snitch)是一个活生生的例子.
 
-## 🧪 The Sandbox
+# # # 沙盒 # # # The Sandbox #
 
-This repo has an **auto-merge bot** (`pull_request_target` workflow). To safely earn YOLO/Pull Shark activity *here*:
+此重播有一个**自动集合的bot**(`pull_request_target`工作流程). * 这里:
 
-1. Fork this repo
-2. Edit `sandbox.md` in your fork (add a line — anything)
-3. Open a PR **that only touches `sandbox.md`**
-4. The bot merges it automatically — check your merged-PR count
+1. 叉子这种还本付息
+2. 在叉中编辑 `sandbox.md`( 添加一条线- 任何东西)
+3. 打开只接触CDPH0的公关**
+4. 机器人自动合并——检查您的合并PR计数
 
-> Only `sandbox.md` changes are auto-merged, for obvious security reasons.
+> 由于明显的安全原因,只有`sandbox.md`更改是自动出现.
 
-## ❓ FAQ
+□□□□□□□□□□□□□□□□□□□□□□□□□
 
-- **When do badges appear?** GitHub recalculates achievements in batches — anywhere from a few hours to ~3 days after the triggering activity.
-- **Do tiers upgrade?** Yes — the badge levels up automatically as you cross thresholds.
-- **Can I lose a badge?** Tier-based badges (Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain) recalculate — dropping below a threshold demotes you. Deleted repos stop counting.
-- **Is this against the rules?** GitHub's ToS prohibits spam and abuse. The badges are cosmetic; the community norms are what they are. Practice responsibly — a profile with diamond Pull Shark and 3 followers raises eyebrows, not admiration.
+- 警徽什么时候出现? GitHub按批次重新计算成绩——在触发活动后数小时到~3天的任何时间.
+- ** 提高等级? ** 是的,徽章在跨越阈值时自动上升。
+- 我可以丢个徽章吗? 基于等级的徽章(Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain)重新计算——降到一个阈值以下会降级你. 已删除的重置者停止计数 。
+- 这是违反规则的吗? GitHub的TOS禁止垃圾邮件和虐待. 徽章是化妆品;社区规范就是它是什么. 负责的实践——以钻石拉鲨和3个追随者为背景的简介会引起眉毛,而不是钦佩.
 
-## 🔬 Verified mechanics (community-tested)
+□□□□ 验证力学(社区测试)
 
-| Badge | What counts | What doesn't |
+徽章 何谓重要 什么没有?
 |---|---|---|
-| Pull Shark | PR merged on any repo you don't own... or do own | reverts, drafts |
-| Pair Extraordinaire | `Co-authored-by:` in merge commit | regular commits |
-| Galaxy Brain | Accepted answer in Q&A discussion | upvotes alone |
-| Heart On Your Sleeve | Any ❤️ reaction on your content | reactions on others' |
-| YOLO | Merge with zero reviews requested | "review skipped" still counts as review |
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}或者说你们自己还来还来还去 {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}草稿
+合并中的 `Co-authored-by:` 常规承诺
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}Galaxy Brain... {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}接受回答 {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}讨论...
+任何对你内容的反应 对他人的反应
+QQ YOLO 与零审查合并 请求QQ"审查跳过"仍然算作审查 QQ
 
-## ⚠️ Rate-limit reality
+# # # 利率限制现实
 
-GitHub recalculates achievements on a delayed cron — merges to badge can take 24-48h. The `/settings/appearance` showcase may lag a week. Don't panic if a completed action doesn't show instantly.
+GitHub在延迟的克龙上重新计算成就——合并到徽章可以需要24-48h. `/settings/appearance`的显示可能落后一周. 不要惊慌,如果一个完成的动作不立即显示.
 
-## 🧪 Ethical farming
+□ 道德农业
 
-- A private sandbox repo gets you Pull Shark/YOLO/Pair legitimately — it's your own repo, your own PRs.
-- Galaxy Brain genuinely requires another human's question OR a second account asking you.
-- Heart On Your Sleeve needs real people reacting — hence this repo's sandbox issue.
+- 一个私人的沙盒的回放 让你拉鲨鱼/YOLO/Pair合法—— 这是你自己的回放,你自己的公关。
+- Galaxy Brain真的需要另一个人的问题 或者第二个账户问你
+- 心在你的袖子上需要真正的人反应 - 所以这个repo的沙盒问题。
 
 ---
 ## 贡献
