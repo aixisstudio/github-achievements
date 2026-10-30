@@ -4,85 +4,83 @@
 
 Tous les badges GitHub expliqués + un bac à sable pour les débloquer
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
+Chaque insigne, chaque niveau
 
-## 🏅 Every Badge, Every Tier
-
-| Badge | How to earn it | Tiers |
+Insigne Comment le gagner
 |---|---|---|
-| **Quickdraw** | Close an issue within 5 minutes of opening it | — |
-| **YOLO** | Merge a PR without code review | — |
-| **Pull Shark** | Merge pull requests | 2 / 16 / 128 / **1024** |
-| **Pair Extraordinaire** | Co-authored commits on merged PRs | 1 / 10 / 24 / **48** |
-| **Galaxy Brain** | Accepted answers in Discussions | 2 / 8 / 16 / **32** |
-| **Starstruck** | Stars on your repos | 16 / 128 / **512** / 4096 |
-| **Open Sourcerer** | PRs merged on public repos *(currently closed)* | — |
-| **Heart On Your Sleeve** | Emoji reactions on your content *(currently closed)* | — |
-| **Public Sponsor** | Sponsor open-source work via GitHub Sponsors | — |
-| **Developer Program Member** | Register at github.com/developer/register | — |
-| **Mars 2020 / Arctic Code Vault** | Historical events — unobtainable | — |
+Fermer un numéro dans les 5 minutes suivant son ouverture
+**YOLO**
+Requêtes de tirage de fusion 2 / 16 / 128 / **1024**
+**Pair Extraordinaire**
+Réponses acceptées dans les discussions
+* Starstruck * Stars on your repose * 16 / 128 / **512** / 4096
+**Open Sourcerer**
+**Heart On Your Sleeve**
+**Promoteur public**
+**Membre du programme Développeur**
+**Mars 2020 / Arctic Code Vault**
 
-## ⚡ The Fastest Path to Each Badge
+Le chemin le plus rapide vers chaque insigne
 
-### 🚀 Quickdraw *(2 minutes)*
-Open an issue in any of your repos → close it immediately. Badge triggers at the next scan.
+Tirer rapidement (2 minutes)*
+Ouvrez un problème dans l'un de vos repos → fermez immédiatement. Les déclencheurs d'insigne au prochain scan.
 
-### 🎲 YOLO *(2 minutes)*
-Open a PR on your repo → merge it **without requesting review**. Done.
+* (2 minutes)*
+Ouvrir un PR sur votre repo → le fusionner **sans demander de révision**. C'est fait.
 
-### 🦈 Pull Shark *(the grind badge)*
-Every merged PR counts — including on your own repos. Script the create/merge loop and pace it under the anti-abuse limit (~10-15 merges/min sustained, or GitHub temporarily blocks content creation).
+Pull Shark * (le badge de broyage)*
+Chaque PR fusionné compte — y compris sur votre propre repos. Scripter la boucle create/merge et la ralentir sous la limite anti-abuse (~10-15 fusions/min soutenues, ou GitHub bloque temporairement la création de contenu).
 
-### 👥 Pair Extraordinaire *(the sneaky one)*
-The `Co-authored-by:` trailer must be in **the PR's commits**, not the merge commit:
+Paire Extraordinaire * (le sournois)*
+Le trailer `Co-authored-by:` doit être dans **les commits du PR**, et non le commit de fusion:
 ```
 Co-authored-by: friend <12345+theiruser@users.noreply.github.com>
 ```
-Each merged PR with a co-authored commit counts once toward the 48.
+Chaque PR fusionné avec un commit co-auteur compte une fois vers le 48.
 
-### 🧠 Galaxy Brain *(the one that bites back)*
-Discussions must have a **Q&A category** and someone must *accept* your answer. Marking your own answer on your own discussion **does not count** — the accept must come from the discussion author or another maintainer. Two-account or community approaches work.
+* (celui qui mord en arrière) *
+Les discussions doivent avoir une catégorie **Q&A** et quelqu'un doit *accepter* votre réponse. Marquer votre propre réponse sur votre propre discussion **ne compte pas** — l'acceptation doit provenir de l'auteur de la discussion ou d'un autre responsable. Les approches à deux comptes ou communautaires fonctionnent.
 
-### ⭐ Starstruck *(can't be faked)*
-Stars come from real users — ship something people want, promote it in the right places. This repo's sibling project [Snitch](https://github.com/aixisstudio/Snitch) is a living example.
+Starstruck *(ne peut pas être falsifié)*
+Les étoiles proviennent de vrais utilisateurs — expédiez quelque chose que les gens veulent, faites la promotion dans les bons endroits. Le projet frère de cette repo [Snitch](https://github.com/aixisstudio/Snitch) est un exemple vivant.
 
-## 🧪 The Sandbox
+La boîte à sable
 
-This repo has an **auto-merge bot** (`pull_request_target` workflow). To safely earn YOLO/Pull Shark activity *here*:
+Cette repo a un robot ** auto-merger** (processus `pull_request_target`). Pour gagner l'activité YOLO/Pull Shark en toute sécurité *ici*:
 
-1. Fork this repo
-2. Edit `sandbox.md` in your fork (add a line — anything)
-3. Open a PR **that only touches `sandbox.md`**
-4. The bot merges it automatically — check your merged-PR count
+1. Fourche cette repo
+2. Modifier le `sandbox.md` dans votre fourche (ajouter une ligne — n'importe quoi)
+3. Ouvrir un PR ** qui ne touche que `sandbox.md`**
+4. Le bot le fusionne automatiquement — vérifiez votre compte fusion-PR
 
-> Only `sandbox.md` changes are auto-merged, for obvious security reasons.
+> Seuls les changements `sandbox.md` sont fusionnés automatiquement, pour des raisons de sécurité évidentes.
 
-## ❓ FAQ
+FAQ
 
-- **When do badges appear?** GitHub recalculates achievements in batches — anywhere from a few hours to ~3 days after the triggering activity.
-- **Do tiers upgrade?** Yes — the badge levels up automatically as you cross thresholds.
-- **Can I lose a badge?** Tier-based badges (Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain) recalculate — dropping below a threshold demotes you. Deleted repos stop counting.
-- **Is this against the rules?** GitHub's ToS prohibits spam and abuse. The badges are cosmetic; the community norms are what they are. Practice responsibly — a profile with diamond Pull Shark and 3 followers raises eyebrows, not admiration.
+- **Quand les badges apparaissent-ils?** GitHub recalcule les réalisations en lots — de quelques heures à environ 3 jours après l'activité de déclenchement.
+- **Mise à niveau?** Oui — le badge s'élève automatiquement lorsque vous franchissez les seuils.
+- Je peux perdre un badge ? Les badges basés sur le niveau (Starstruck, Pull Shark, Pair Extraordinaire, Galaxy Brain) recalculent – tomber sous un seuil vous démote. Supprimé repos arrêt de compter.
+- **Est-ce contre les règles?** Le TOS de GitHub interdit les pourriels et les abus. Les badges sont cosmétiques, les normes communautaires sont ce qu'ils sont. Pratiquer de façon responsable — un profil avec le diamant Pull Shark et 3 adeptes soulève les sourcils, et non l'admiration.
 
-## 🔬 Verified mechanics (community-tested)
+Mécanique vérifiée (test communautaire)
 
-| Badge | What counts | What doesn't |
+Ce qui compte Qu'est-ce qui ne va pas
 |---|---|---|
-| Pull Shark | PR merged on any repo you don't own... or do own | reverts, drafts |
-| Pair Extraordinaire | `Co-authored-by:` in merge commit | regular commits |
-| Galaxy Brain | Accepted answer in Q&A discussion | upvotes alone |
-| Heart On Your Sleeve | Any ❤️ reaction on your content | reactions on others' |
-| YOLO | Merge with zero reviews requested | "review skipped" still counts as review |
+Pull Shark , PR fusionné sur n'importe quelle repo que vous ne possédez pas... ou qui possède , retourne , brouillons ,
+Paire Extraordinaire `Co-authored-by:` dans le commit de fusion
+Galaxy Brain Réponse acceptée dans la discussion sur les questions-réponses
+Un cœur sur votre manche Toute réaction sur votre contenu Réactions sur les autres
+Fusionner avec zéro avis demandé
 
-## ⚠️ Rate-limit reality
+La réalité des limites de taux
 
-GitHub recalculates achievements on a delayed cron — merges to badge can take 24-48h. The `/settings/appearance` showcase may lag a week. Don't panic if a completed action doesn't show instantly.
+GitHub recalcule les réalisations sur un cron retardé — les fusions au badge peuvent prendre 24-48h. La vitrine `/settings/appearance` peut prendre du temps une semaine. Ne paniquez pas si une action terminée ne s'affiche pas instantanément.
 
-## 🧪 Ethical farming
+Agriculture éthique
 
-- A private sandbox repo gets you Pull Shark/YOLO/Pair legitimately — it's your own repo, your own PRs.
-- Galaxy Brain genuinely requires another human's question OR a second account asking you.
-- Heart On Your Sleeve needs real people reacting — hence this repo's sandbox issue.
+- Une repo privée de bac à sable vous donne Pull Shark/YOLO/Pair légitimement — c'est votre propre repo, vos propres PR.
+- Galaxy Cerveau exige vraiment la question d'un autre humain OU un second compte vous demandant.
+- Heart On Your Sleeve a besoin de vraies personnes qui réagissent.
 
 ---
 ## Contribuer
