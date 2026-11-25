@@ -42,7 +42,7 @@ Each merged PR with a co-authored commit counts once toward the 48.
 Discussions must have a **Q&A category** and someone must *accept* your answer. Marking your own answer on your own discussion **does not count** — the accept must come from the discussion author or another maintainer. Two-account or community approaches work.
 
 ### ⭐ Starstruck *(can't be faked)*
-Stars come from real users — ship something people want, promote it in the right places. This repo's sibling project [Snitch](https://github.com/aixisstudio/Snitch) is a living example.
+Stars come from real users — ship something people want, promote it in the right places. This repo's sibling project [Wiretap](https://github.com/aixisstudio/Wiretap) is a living example.
 
 ## 🧪 The Sandbox
 
@@ -83,7 +83,7 @@ GitHub recalculates achievements on a delayed cron — merges to badge can take 
 - Heart On Your Sleeve needs real people reacting — hence this repo's sandbox issue.
 
 ---
-Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall.
+Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Wiretap](https://github.com/aixisstudio/Wiretap), the open-source application firewall.
 
 ## License
 
